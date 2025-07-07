@@ -40,7 +40,7 @@ nav div{
 
 nav div a{
     text-decoration: none;
-    margin: 0 7px;
+    margin: 0 4px;
     color: var(--text-color);
 }
 
