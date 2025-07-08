@@ -1,7 +1,7 @@
 const sheetID = "17PLNDjUDEELUijtpYrlZmcZmz_tsPFT4Ue2jgD0BxZk"; 
   
 const sheetMap = {
-    books: "books" 
+    fun: "fun"
   };
 
 
@@ -26,7 +26,7 @@ for (const [divID, sheetName] of Object.entries(sheetMap)) {
 
       rows.forEach(row => {
         const courseClass = row.c[0]?.v || "";
-        const booksReadOnline = row.c[1]?.v || "";
+        const video = row.c[1]?.v || "";
         
 
         if (!courseClass) return;
@@ -47,7 +47,7 @@ for (const [divID, sheetName] of Object.entries(sheetMap)) {
         block.innerHTML = `
           <div class="course-card ${courseClass}">
             <br>
-            <iframe src="https://drive.google.com/file/d/${booksReadOnline}/preview" width="fit-content" height="fit-content"></iframe>
+            <iframe src="https://www.youtube.com/embed/${video}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <br>
             </div>
         `;
