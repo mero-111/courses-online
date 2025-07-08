@@ -64,31 +64,11 @@ nav p{
     background-color: #1F1F1F;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px;
+    margin: 10px 0;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     opacity: 0;
     animation: fadeIn 1s ease-out forwards;
     width: 300px;
-}
-
-.course-card h2 {
-    color: var(--text-color);
-    font-size: 20px;
-}
-
-.course-card p {
-    color: #AAAAAA;
-    font-size: 14px;
-}
-
-.course-card button {
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
 }
 
 
