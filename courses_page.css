@@ -24,7 +24,7 @@ nav{
     align-items: center;
     flex-wrap: wrap;
     background-color: var(--background-color);
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0.25rem;
     color: var(--primary-color);
     box-shadow: 1px 1px 6px #1d1d1d;
     width: 100%;
@@ -36,12 +36,12 @@ nav{
 nav div{
     display: flex;
     justify-content: space-evenly;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 nav div a{
     text-decoration: none;
-    margin: 0 4px;
+    margin: 0 5px;
     color: var(--text-color);
 }
 
